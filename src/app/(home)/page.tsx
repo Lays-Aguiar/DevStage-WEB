@@ -1,12 +1,10 @@
-import { Button } from '@/components/button'
-import { Input } from '@/components/input'
-import { ArrowRight, Mail, Radio } from 'lucide-react'
+import { Radio } from 'lucide-react'
 import Image from 'next/image'
-import logo from '../assets/logo.svg'
+import logo from '../../assets/logo.svg'
+import { SubscriptionForm } from './subscription-form'
 
 export default function Home() {
   return (
-
     <div className="min-h-dvh flex flex-col justify-center gap-16">
       <div className="flex flex-col gap-8 items-center md:items-start">
         <Image src={logo} alt="DevStage" width={108.5} height={30} />
@@ -38,21 +36,7 @@ export default function Home() {
           </p>
         </div>
 
-
-        <form className="w-full bg-gray-700 border border-gray-600 rounded-2xl p-8 space-y-6 md:max-w-[440px]">
-          <h2 className="font-heading font-semibold text-gray-200 text-xl">
-            Inscrição
-          </h2>
-          <div className='space-y-4'>
-            <Input icon={<Mail />} placeholder='Nome Completo' type='text' >
-
-            </Input>
-            <Input icon={<Mail />} placeholder='E-mail' type='email' >
-
-            </Input>
-          </div>
-          <Button icon={<ArrowRight />} >Confirmar </Button>
-        </form>
+        <SubscriptionForm />
       </div>
     </div>
   )
