@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevStage - NLW Connect (React)
 
-## Getting Started
+Este repositório contém o código-fonte do **DevStage**, uma aplicação web desenvolvida durante o evento [Next Level Week (NLW) Connect](https://www.rocketseat.com.br/eventos/nlw) da Rocketseat, na trilha de React.
 
-First, run the development server:
+## 📌 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O **DevStage** é uma plataforma que permite aos usuários:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Registrar-se em eventos e obter ingressos.
+- Gerar links de convite personalizados.
+- Visualizar rankings de indicações.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologias Utilizadas
 
-## Learn More
+- [React](https://react.dev/): Biblioteca JavaScript para construção de interfaces de usuário.
+- [Next.js](https://nextjs.org/): Framework React para aplicações web modernas.
+- [TailwindCSS](https://tailwindcss.com/): Framework CSS baseado em utilitários.
+- [App Router](https://nextjs.org/docs/app): Sistema de roteamento do Next.js.
+- Server Components e Client Components do Next.js.
+- [React Hook Form](https://react-hook-form.com/): Gerenciamento de formulários.
+- [Orval](https://orval.dev/): Ferramenta para geração de clientes HTTP.
+- [Biome](https://biomejs.dev/): Configuração de toolchain.
+- [Zod](https://zod.dev/): Biblioteca de validação de dados.
+- [TypeScript](https://www.typescriptlang.org/): Superset do JavaScript que adiciona tipagem estática.
 
-To learn more about Next.js, take a look at the following resources:
+## 📋 Pré-requisitos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Node.js](https://nodejs.org/) versão 14 ou superior.
+- Um gerenciador de pacotes como npm ou yarn.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Instalação e Execução
 
-## Deploy on Vercel
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/rocketseat-education/nlw-connect-react.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Inicie a aplicação:**
+   ```bash
+   npm run dev
+   ```
+   A aplicação estará disponível em `http://localhost:3000`.
+
+## 🎓 Certificado
+
+Este projeto foi desenvolvido por **Lays Vidal de Aguiar** durante o **NLW Connect** da Rocketseat.
+
+![Certificado](./assets/certificado.png)
+
+- 📜 Certificado: [Visualizar Certificado](https://app.rocketseat.com.br/certificates/f76f15f2-6142-4c4b-985a-da6442e202c7)
+- 🔑 Código de validação: `f76f15f2-6142-4c4b-985a-da6442e202c7`
