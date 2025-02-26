@@ -50,7 +50,9 @@ O **DevStage** é uma plataforma que permite aos usuários:
 
 Este projeto foi desenvolvido por **Lays Vidal de Aguiar** durante o **NLW Connect** da Rocketseat.
 
-![Certificado](./assets/certificado.png)
+<h1 align="center">
+  <img src=./src/assets/Certificado.png>
+</h1>
 
 - 📜 Certificado: [Visualizar Certificado](https://app.rocketseat.com.br/certificates/f76f15f2-6142-4c4b-985a-da6442e202c7)
 - 🔑 Código de validação: `f76f15f2-6142-4c4b-985a-da6442e202c7`
